@@ -838,7 +838,6 @@ ol {
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
 }
 @-webkit-keyframes fadeInDown {
   0% {
@@ -890,7 +889,7 @@ ol {
     }
     .navbar-collapse .navbar-nav .nav-item .nav-link{
         padding: 5px 12px;
-        color: #333
+        color: #565656
     }
     .navbar-expand-lg.navbar-dark {background: rgb(215, 223, 239);}
     .navbar-collapse{
@@ -900,16 +899,18 @@ ol {
 }
 .navbar-white.shrink .navbar-brand,
 .shrink .navbar-nav .nav-item .nav-link{
-    color: #333
+    color: #565656
 }
 
 .navbar-dark .navbar-brand,
-.navbar-dark .navbar-nav .nav-item .nav-link{color: #333}
+.navbar-dark .navbar-nav .nav-item .nav-link{color: #565656}
 
 .navbar-cyan .navbar-brand,
-.navbar-cyan .navbar-nav .nav-item .nav-link{color: #04d0ff}
+.navbar-cyan .navbar-nav .nav-item .nav-link{color: #565656}
 
-
+.navbar:hover, .nav-link:hover, .nav-item:hover {
+    color: #fff; 
+}
 
 /* ##### 3.0 Wellcome Area CSS ##### */
 .hero-section{
@@ -6250,7 +6251,7 @@ img {
 }
 
 .hero-section {
-    background-color: #898989; /* Even lighter gray background */
+    background-color: #bdbdbd; 
 }
 
 /* General Reset */
